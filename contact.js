@@ -22,5 +22,5 @@ contactForm.addEventListener('submit', event => {
   link.click();
   link.remove();
   setTimeout(() => URL.revokeObjectURL(url), 1000);
-  document.querySelector('#contact-status').textContent = 'Your draft download has started. No message has been sent. Keep the file to share when enquiries open.';
+  document.querySelector('#contact-status').textContent = 'Your draft download has started. No message has been sent. Open the file and copy its contents into a message to @mystic_moldings on Instagram.';
 });

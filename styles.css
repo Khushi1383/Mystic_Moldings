@@ -25,3 +25,16 @@
 .contact-faq details p{font-size:12px;line-height:1.9;color:var(--muted);margin:15px 0 0}
 @media(max-width:1000px){.contact-layout{gap:35px}.contact-form-row{grid-template-columns:1fr;gap:0}.contact-form-panel{padding:26px}.header nav{gap:17px}}
 @media(max-width:700px){.contact-intro{padding:43px 6%}.contact-intro .eyebrow{font-size:8px}.contact-layout{grid-template-columns:1fr;gap:35px}.contact-form-panel{padding:23px}.contact-form-panel h2{font-size:29px}.contact-faq{padding-top:0}.header nav{flex-wrap:wrap;gap:15px}.contact-faq summary{font-size:18px}}
+/* Instagram profile and contact links */
+.instagram-link{display:inline-flex;align-items:center;gap:9px;font-size:12px;line-height:1.6;color:var(--olive);padding-block:6px}
+.instagram-link svg{width:19px;height:19px;flex-shrink:0}
+.instagram-link:hover span:first-of-type{text-decoration:underline;text-underline-offset:4px}
+.instagram-section{display:grid;grid-template-columns:1.3fr 1fr;align-items:center;gap:45px}
+.instagram-section>div>p:last-child{font-size:12px;line-height:1.9;color:var(--muted);max-width:440px;margin-bottom:0}
+.instagram-invite{text-align:center;background:#eeeee4;padding:40px 24px;border:1px solid var(--line)}
+.instagram-invite>svg{width:38px;height:38px;color:#858c6a;margin-bottom:17px}
+.instagram-invite>p{font-family:var(--serif);font-size:21px;margin-bottom:16px}
+.instagram-contact>span>svg{width:25px;height:25px}
+.contact-instagram-action{margin-top:20px}
+.form-intro a,.dialog-note a{text-decoration:underline;text-underline-offset:3px;color:var(--olive)}
+@media(max-width:700px){.instagram-section{grid-template-columns:1fr;gap:25px}.instagram-invite{padding:30px 20px}}

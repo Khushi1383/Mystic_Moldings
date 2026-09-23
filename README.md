@@ -15,3 +15,6 @@ Replace the illustrative Unsplash photos with real resin product photos, update 
 
 ## Contact page
 `contact.html` includes enquiry topics, a downloadable enquiry draft, and FAQs. Add the business email and WhatsApp number to the contact details when available. Its form is local-only until a real enquiry service is connected.
+
+## Instagram
+The owner-provided profile https://www.instagram.com/mystic_moldings/ is linked from the homepage, both footers, and contact/enquiry flows. Drafts are not sent automatically. Instagram profile content could not be retrieved during setup, so bio, location, policies, and product photos have not been imported or inferred.

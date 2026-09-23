@@ -12,3 +12,6 @@ Open `index.html` in a browser, or serve the directory with `python3 -m http.ser
 
 ## Before launch
 Replace the illustrative Unsplash photos with real resin product photos, update the sample INR prices and product details in `script.js`, and replace sample stories with consented, anonymised customer stories. Add business contact details, shipping/returns and privacy policies, and connect an order backend and payment provider. Checkout and enquiry submission are intentionally not live. Google Fonts and photographs require an internet connection.
+
+## Contact page
+`contact.html` includes enquiry topics, a downloadable enquiry draft, and FAQs. Add the business email and WhatsApp number to the contact details when available. Its form is local-only until a real enquiry service is connected.
